@@ -28,10 +28,10 @@ app = FastAPI()
 
 # ข้อมูล token และ channel secret สำหรับ LINE
 ACCESS_TOKEN = os.getenv("LINE_ACCESS_TOKEN", "8pglBtrnVv1nmRo0wfVOlR6eQJjlGuJF6kdZDr222saRMPhAKZGLXDrpb45dF7lhkR/gGzszdwvCH5KrRY9OGZyHTDCk17YcM+Bky1IFcjuWd3cUsPk4fbHLaXln/E1s0i5Akc6FYkWKsLlyC8lScQdB04t89/1O/w1cDnyilFU=")
-CHANNEL_SECRET = os.getenv("LINE_CHANNEL_SECRET", "701c99f9fa1b4d0261e6f4dedcce76c8")
+CHANNEL_SECRET = os.getenv("LINE_CHANNEL_SECRET", "33a7121b92dc16a49cb9f6e76da6f972")
 
 # ข้อมูล Gemini api key
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBrn9N8g0RnZrYhW-vFe3Tb2ytibKcsU3E")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyA5Vmc8EyJzUaFc_7bR5J34iTX_apQ-5ac")
 
 # การเชื่อมต่อ และตั้งค่าข้อมูลเพื่อเรียกใช้งาน LINE Messaging API
 configuration = Configuration(access_token=ACCESS_TOKEN)
